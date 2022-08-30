@@ -1,8 +1,8 @@
-﻿// Сложение двух целых чисел
+﻿// Разность двух целых чисел
 Console.WriteLine("Введите первое число  ");
-int a = Convert.ToInt32(Console.ReadLine());
+double a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число  ");
-int b = Convert.ToInt32(Console.ReadLine());
-int c = a + b;
+double b = Convert.ToInt32(Console.ReadLine());
+double c = a / b;
 Console.Write("Ответ" );
 Console.WriteLine(c);
